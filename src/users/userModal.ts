@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema<User>(
       require: true,
     },
   },
-  { timestamps: true } //when it create and for sorting purpose
+  { timestamps: true } //when it create and for sorting purpose.
 );
 
 //Create models and mongoose will create users modal plural form and if use add third parameter it will override and create with that name. 
